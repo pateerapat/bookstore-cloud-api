@@ -5,7 +5,7 @@ const dotenv = require("dotenv");
 
 dotenv.config();
 
-const PORT = 80;
+const PORT = 5000;
 
 const app = express();
 
