@@ -1,10 +1,10 @@
 const mysql = require("mysql2/promise");
 
 const pool = mysql.createPool({
-  host: "us-cdbr-east-05.cleardb.net",
-  user: "b9e27f91d9dd45",
-  password: "7b0b2118",
-  database: "heroku_0211fb2ce26ce05",
+  host: "ec2-52-90-188-92.compute-1.amazonaws.com",
+  user: "admin",
+  password: "pkcg2032Z1",
+  database: "cloudject-db",
   waitForConnections: true,
   connectionLimit: 10,
   queueLimit: 0
