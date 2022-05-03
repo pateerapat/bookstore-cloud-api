@@ -1,7 +1,7 @@
 const mysql = require("mysql2/promise");
 
 const pool = mysql.createPool({
-  host: "ec2-52-90-188-92.compute-1.amazonaws.com",
+  host: "cloudject-db-instance-1.ceex9udkblnm.us-east-1.rds.amazonaws.com",
   user: "admin",
   password: "pkcg2032Z1",
   database: "cloudject-db",
